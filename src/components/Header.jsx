@@ -28,10 +28,9 @@ function Header()
 
                         </div>
                     </div>
-                    {/* <hr></hr> */}
                 </div>
             </div>
-            
+             <hr></hr>
         </>
     )
 }
