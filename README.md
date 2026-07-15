@@ -8,6 +8,10 @@ Aplicacion web de React sobre una tematica (GTA5)
 
 ![pantallazo_1](./pantallazo%201.png)
 
+(15/07 2)
+ya puse descripcionesssss (y persistencia)\
+<img src="./pantallazo 3.png" width="300" height="200" alt="Alt text">
+
 (15/07)
 ya ahora llevo mas, falta poner mas informacion y detalles
 y cambiar los nombres de los componentes a cosas como "DetallePersonaje" o "ListaPersonajes"
