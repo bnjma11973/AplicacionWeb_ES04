@@ -5,7 +5,7 @@ function Header()
 {
     return (
         <>
-            <div class="container-fluid my-2">
+            <div class="container-fluid my-2 mx-auto">
                 
                 <div class=" container
                 position-relative

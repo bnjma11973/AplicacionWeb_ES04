@@ -4,9 +4,7 @@ function Footer()
 {
     return (
         <>
-            <div class="container-fluid 
-            w-75 mx-auto my-2
-            ">
+            <div class="container w-75 mx-auto my-2">
                 <br/>
                 Integrantes del proyecto
                 <ol>

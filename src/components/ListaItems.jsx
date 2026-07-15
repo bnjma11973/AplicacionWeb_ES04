@@ -5,12 +5,10 @@ function ListaItems({CambiarPersonaje})
 {
     return (
         <>
-            <div class="container-fluid 
-            w-75 mx-auto my-2
-            ">
-                <h2>Personajes</h2>
+            <div class="container w-75 mx-auto my-2">
                 {/* CONTENEDOR DE TARJETAS */}
                 <div class="container">
+                     <h2>Personajes</h2>
                     <div class="row">
                         <div class="col">
                             <ItemCard
