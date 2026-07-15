@@ -1,5 +1,5 @@
 ///
-import imgHeader from "../assets/headertest_2.jpg";
+import imgHeader from "../assets/gta5-banner.png";
 // el headertest.png esta muy alto asi que lo cambie
 
 function Header()
@@ -15,17 +15,15 @@ function Header()
                     ">
                         <img src={imgHeader} class="img-fluid" alt="..."></img>
                         <div class=" container
-                        d-block w-auto 
+                        d-block w-auto text-white
                         position-absolute bottom-0
-                        border border-3 border-info bg-white
                         ">
-                            <p class="h1">
-                                Titulo de la Landing page
+                            <p class="h1 p-2">
+                                Landing page de GTA5
                             </p>
-                            <p class="lead">
+                            {/* <p class="lead">
                                 (banner temporal)
-                            </p>
-
+                            </p> */}
                         </div>
                     </div>
                 </div>

@@ -3,9 +3,10 @@ function Footer()
 {
     return (
         <>
-            <div class="container-fluid my-2
-            w-75 mx-auto
+            <div class="container-fluid 
+            w-75 mx-auto my-2
             ">
+                <br/>
                 Integrantes del proyecto
                 <ol>
                     <li>Jorge Urrutia</li>

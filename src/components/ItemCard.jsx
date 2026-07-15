@@ -6,7 +6,13 @@ function ItemCard(props)
     return (
         <>
         <div class="card">
-            {/* <img class="card-img-top" src="holder.js/100x180/" alt="Title" /> */}
+            <img
+                src={(props.image != undefined) ?
+                    props.image : ""
+                } 
+                class="img-fluid" 
+                alt="">
+                </img>
             <div class="card-body">
                 <h4 class="card-title">
                     {(props.titulo != undefined) ? 
