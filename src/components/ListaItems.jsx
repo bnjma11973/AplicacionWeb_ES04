@@ -1,42 +1,44 @@
-import DetalleItems from "./DetalleItems"
+/// LISTA DE TARJETAS
 import ItemCard from "./ItemCard"
 
-import imgMichael from "../assets/card-michael.jpg"
-import imgFranklin from "../assets/card-franklin.jpg"
-import imgTrevor from "../assets/card-trevor.jpg"
-
-
-function ListaItems()
+function ListaItems({CambiarPersonaje})
 {
     return (
         <>
             <div class="container-fluid 
-            w-75 mx-auto
+            w-75 mx-auto my-2
             ">
-                <p> <h2>Personajes</h2> </p>
-
+                <h2>Personajes</h2>
+                {/* CONTENEDOR DE TARJETAS */}
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <ItemCard 
-                                titulo="Michael"
-                                image= {imgMichael}
+                            <ItemCard
+                                seleccionarPersonaje={
+                                    (e)=> CambiarPersonaje(e)}
+                                titulo = "Michael"
+                                image = {"/card-michael.jpg"}
                             />
                         </div>
                         <div class="col">
                             <ItemCard 
-                                titulo="Franklin"
-                                image = {imgFranklin}
+                                seleccionarPersonaje={
+                                    (e)=> CambiarPersonaje(e)}
+                                titulo = "Franklin"
+                                image = {"/card-franklin.jpg"}
                             />
                         </div>
                         <div class="col">
                             <ItemCard
-                                titulo="Trevor"
-                                image={imgTrevor}
+                                seleccionarPersonaje={
+                                    (e)=> CambiarPersonaje(e)}
+                                titulo = "Trevor"
+                                image = {"/card-trevor.jpg"}
                             />
                         </div>
                     </div>
                 </div>
+
             </div>
             <hr></hr>
         </>

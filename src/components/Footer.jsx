@@ -1,3 +1,4 @@
+/// PIE DE PAGINA
 
 function Footer()
 {

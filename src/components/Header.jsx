@@ -1,6 +1,5 @@
-///
+/// CABECERA
 import imgHeader from "../assets/gta5-banner.png";
-// el headertest.png esta muy alto asi que lo cambie
 
 function Header()
 {
@@ -13,7 +12,9 @@ function Header()
                 ">
                     <div class="container
                     ">
-                        <img src={imgHeader} class="img-fluid" alt="..."></img>
+                        <img src={imgHeader} 
+                            class="img-fluid" 
+                            alt="..."/>
                         <div class=" container
                         d-block w-auto text-white
                         position-absolute bottom-0

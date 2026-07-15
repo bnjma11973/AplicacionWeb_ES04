@@ -1,33 +1,27 @@
-import {useState} from "react"
-import DetalleItems from "./DetalleItems"
+/// TARJETA
+// import {useState} from "react"
 
-function ItemCard(props)
+function ItemCard({image, titulo, seleccionarPersonaje})
 {   
     return (
         <>
         <div class="card">
             <img
-                src={(props.image != undefined) ?
-                    props.image : ""
-                } 
+                src={(image != undefined) ?
+                    image : ""}
                 class="img-fluid" 
                 alt="">
                 </img>
             <div class="card-body">
+                {/* CUERPO DE LA TARJETA */}
+
                 <h4 class="card-title">
-                    {(props.titulo != undefined) ? 
-                        props.titulo : "Elemento"}
-                    {/* alomejor tengo que cambiar esto despues */}
+                    {(titulo != undefined) ?
+                        titulo : "Elemento"}
                 </h4>
-                {/* <p class="card-text">
-                    {(props.descripcion != undefined) ?
-                        props.descripcion : "Descripcion"}
-                </p> */}
-                {/* <p>
-                    Mas informacion
-                </p> */}
-                <button type="button" id=""
-                class="btn btn-secondary btn-sm"
+                
+                <button class="btn btn-secondary btn-sm"
+                onClick={()=> seleccionarPersonaje(titulo)}
                     >Mas Informacion
                 </button>
             </div>

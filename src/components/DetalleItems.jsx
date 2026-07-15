@@ -1,18 +1,26 @@
-/// kjbaskdjbsakdb
-// import imgFranklinTest from "../assets/card-franklin.jpg"
+/// DETALLE DE TARJETA SELECCIONADA
+import {useState} from "react"
 
-//PENDIENTE!!!!!!!!!!!!!
-function DetalleItems()
+function DetalleItems({personajeActual, personajeInfo})
 {
     return (
         <>
-            <div class=" container-fluid
-            w-75 mx-auto my-2
-            ">
-                <p class="h2">
-                    Seleccione un item a detallar
-                </p>
-
+            <div class=" container my-2">
+                <div class="row">
+                    <div class="col-2">
+                        <img 
+                            src={personajeInfo.image}
+                            class="img-fluid"
+                            alt={personajeActual}
+                        ></img>
+                    </div>
+                    <div class="col-6">
+                        <h3>
+                            {(personajeActual != "") ? 
+                            personajeInfo.nombre : "Seleccione un personaje"}
+                        </h3>
+                    </div>
+                </div>
             </div>
             <hr></hr>
         </>
